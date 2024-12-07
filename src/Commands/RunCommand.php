@@ -51,5 +51,7 @@ class RunCommand extends Command
         if ($this->output->isVerbose()) {
             $this->output->writeln("\nComplete");
         }
+
+        return 0;
     }
 }
